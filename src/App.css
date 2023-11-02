@@ -1,0 +1,97 @@
+.rmsc .dropdown-container .dropdown-content .panel-content {
+  border-radius: 10px !important;
+  transition-duration: 300ms;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rmsc .dropdown-container .dropdown-content .dropdown-heading:focus {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rmsc
+  .dropdown-container
+  .dropdown-content
+  .panel-content
+  .select-panel
+  .options
+  li {
+  border-top: 1px solid #ddd;
+}
+.rmsc
+  .dropdown-container
+  .dropdown-content
+  .panel-content
+  .select-panel
+  .options
+  li
+  .select-item:hover {
+  background-color: #e08804;
+}
+
+.rmsc
+  .dropdown-container
+  .dropdown-content
+  .panel-content
+  .select-panel
+  .options
+  li
+  .select-item {
+  border: none;
+}
+
+.rmsc .item-renderer input {
+  margin-right: 10px !important;
+}
+.rmsc
+  .dropdown-container
+  .dropdown-content
+  .panel-content
+  .select-panel
+  .options
+  li
+  .selected {
+  background-color: #0089e5;
+  color: #fff;
+}
+
+.user_dropdown_menu {
+  clear: both !important;
+  color: #212529 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  padding: 2px 2px;
+  margin-left: -33px !important;
+}
+
+/* National_critical table css */
+
+.National_critical {
+  background-color: #d37b55 !important;
+  color: #fff !important;
+}
+
+.National_HighlyCritical {
+  background-color: #93ab68 !important;
+  color: #fff !important;
+}
+
+.sectoral_kpis {
+  background-color: #2b84c5 !important;
+  color: #fff !important;
+}
+
+.stateDistrictAnalysis {
+  background-color: #2f4489 !important;
+  color: #fff !important;
+}
+
+.scheme-analysis {
+  background-color: #6d51a5 !important;
+  color: #fff !important;
+}
